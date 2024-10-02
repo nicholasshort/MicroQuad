@@ -1,1 +1,1 @@
-# MicroQuadcopter
+# MicroQuad
