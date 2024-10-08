@@ -1,0 +1,91 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8971f876-5b3c-4165-aa17-84d4a3cd004e)
+
+  (paper "A4")
+
+  (title_block
+    (date "2024-10-08")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "MicroQuad" (at 101.6 55.88 0)
+    (effects (font (size 9 9) (thickness 1) bold) (justify left bottom))
+    (uuid dbea4fd5-1624-41cf-909e-f5c327d7a2cc)
+  )
+
+  (sheet (at 140.335 62.23) (size 29.21 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 08fad0dd-ed56-4156-8d36-1884874d31b0)
+    (property "Sheetname" "MCU" (at 140.335 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 140.335 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MicroQuad"
+        (path "/8971f876-5b3c-4165-aa17-84d4a3cd004e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 62.23) (size 29.21 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6efdce62-27dc-4b15-aeb6-b54c510c1d4f)
+    (property "Sheetname" "Power" (at 104.14 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 104.14 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MicroQuad"
+        (path "/8971f876-5b3c-4165-aa17-84d4a3cd004e" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 97.79) (size 29.21 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9d5bdf31-14a7-425b-9f7f-c51db060d3a1)
+    (property "Sheetname" "Sensors" (at 104.14 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sensors.kicad_sch" (at 104.14 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MicroQuad"
+        (path "/8971f876-5b3c-4165-aa17-84d4a3cd004e" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 140.335 97.79) (size 29.21 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b8de5233-e42e-4694-ac5f-248bc2666d9d)
+    (property "Sheetname" "Radio" (at 140.335 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "radio.kicad_sch" (at 140.335 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MicroQuad"
+        (path "/8971f876-5b3c-4165-aa17-84d4a3cd004e" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "0"))
+  )
+)
