@@ -1,0 +1,18 @@
+.IIS2MDCTR :1 ;STMICROELECTRONICS - IIS2MDCTR - MEMS MODULE, 3-AXIS MAGNETOMETER, LGA-12
+IIS2MDCTR
+*STM IC
+*NGS
+*PLB 1="SCL/SPC" 2="NC_1" 3="CS" 4="SDA/SDI/SDO" 5="C1" 6="GND_1" 7="INT/DRDY" 8="GND_2" 9="VDD" 10="VDD_IO" 11="NC_2" 12="NC_3"
+*MXP 12
+*DFN IIS2MDCTR
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (IIS2MDCTR)
+~!Mouser Part Number (511-IIS2MDCTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/IIS2MDCTR?qs=1mbolxNpo8ems1K%2FRdQzXg%3D%3D)
+~!Arrow Part Number (IIS2MDCTR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/iis2mdctr/stmicroelectronics?region=nac)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/iis2mdc.pdf)
+~!Height (0.7mm)
+~!3D_Model (IIS2MDCTR)
+IIS2MDCTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

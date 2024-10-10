@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IIS2MDCTR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_IIS2MDCTR/IIS2MDCTR/KiCad/IIS2MDCTR.kicad_sym")(options "")(descr ""))
+)
