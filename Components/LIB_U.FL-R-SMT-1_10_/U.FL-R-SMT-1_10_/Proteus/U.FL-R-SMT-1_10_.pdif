@@ -1,0 +1,106 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "U.FL-R-SMT-1_10_"
+   (description "UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial")
+   (family "CON")
+   (package "U.FL-R-SMT-1(10)")
+   (attribute "Datasheet Link" "https://www.hirose.com/product/document?clcode=CL0331-0472-2-10&productname=U.FL-R-SMT-1(10)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940684")
+   (attribute "Manufacturer_Name" "Hirose")
+   (attribute "Manufacturer_Part_Number" "U.FL-R-SMT-1(10)")
+   (attribute "Mouser Part Number" "798-U.FL-R-SMT-110")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/U.FL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D")
+   (attribute "Arrow Part Number" "U.FL-R-SMT-1(10)")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/u.fl-r-smt-1-10/hirose-electric")
+   (gate
+    (symbol "U.FL-R-SMT-1_10_")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "U.FL-R-SMT-1_10_"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 200) (pt 600 200) (pt 600 -100) (pt 200 -100) (pt 200 200) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 400) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "U.FL-R-SMT-1(10)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -1.3 1.3)
+      (pt 1.3 1.3)
+      (pt 1.3 -1.3)
+      (pt -1.3 -1.3)
+      (pt -1.3 1.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -1.3 -1.3)
+      (pt 1.3 -1.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 1.3 1.3)
+      (pt 0.788 1.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -1.3 1.3)
+      (pt -0.76967 1.3))))
+   (leg 1 (pt -1.475 0) (padstack 0))
+   (leg 2 (pt 1.475 0) (padstack 0))
+   (leg 3 (pt 0 1.525) (padstack 3))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.05 2.2 0 0 90))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (square 1.05))
+   )
+   (model "U.FL-R-SMT-1_10_.stp"
+    (euler 0 0 0)
+    (offset 0 0.05000000074505806 0)
+   )
+  )
+ )
+)
